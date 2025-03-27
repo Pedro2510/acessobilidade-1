@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>Mc paiva</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class=" p-5">
+
+        <nav class="container d-flex justify-content-between align-items-center">
+            <p class="paiva-cabecalho">Pedro Henrique Coelho Gonçalves N°37 3°C</p>
+            <ul class="nav mt-5">
+                <li class="nav-item"><a class="nav-link" href="#inicio">Início</a></li>
+                <li class="nav-item"><a class="nav-link" href="#galeria">Galeria</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+
+    <main class="container my-5">
+
+        <section id="inicio" class="my-5">
+            <div class="inicio-fundo d-flex justify-content-between align-items-center">
+                <div class="esquerda-conteudo">
+                    <h1 class="display-4 text-white fst-italic fw-bold">Mc Paiva</h1>
+                    <a href="https://www.instagram.com/mcdavipaiva/" target="_blank"
+                        class="btn btn-primary btn-lg botao-inicio fw-semibold">instagram</a>
+                </div>
+
+
+            </div>
+        </section>
+
+        <section id="tropicalia" class="my-5 pt-6 secao-tropicalia">
+            <div class="container d-flex align-items-center ">
+                <div class="col-5">
+                    <h2>Quem é Mc Paiva</h2>
+                    <p class="p-2">MC Paiva, cujo nome verdadeiro é Davi Paiva, nasceu em 24 de maio de 2002 em São José
+                        dos Campos, São Paulo. Antes de alcançar o sucesso no cenário do funk paulista, trabalhou como
+                        chapeiro em uma lanchonete, economizando para investir em sua carreira musical.</p>
+                    <h2>Trajetória</h2>
+                    <p>Sua trajetória artística teve início em 2020, quando lançou seu primeiro single, "Fluxão", no
+                        Spotify. A descoberta pela produtora Love Funk impulsionou sua carreira, levando-o a colaborar
+                        com outros artistas e a ganhar notoriedade no gênero. O reconhecimento nacional veio com o hit
+                        "Casei com a Putaria", uma parceria com Ryan SP e Kotim, que acumula milhões de visualizações no
+                        YouTube. Outros sucessos incluem "Bandido Não Dança", "Doce Veneno" e "Bagulho Louco".
+                        </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="galeria">
+            <h2 class="text-center pt-5">Galeria</h2>
+            <div class="container p-3 mt-3 fundo-galeria ">
+
+                <div class="row justify-content-md-center">
+                    <div class="col-md-4">
+                        <img src="paiva 1.jpeg" class="img-fluid rounded-5" loading="lazy">
+                    </div>
+                    <div class="col-md-4">
+                        <img src="paiva 2.jpg" class="img-fluid rounded-5" loading="lazy">
+                        <a href="https://open.spotify.com/intl-pt/artist/0gHj4MPwwcZ8Zl9CY0hqT5" target="_blank"
+                            class="btn btn-primary btn-lg botao-inicio fw-semibold">Spotify</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato">
+            <div class="container p-5 d-flex justify-content-center">
+                <div class="col-md-8 col-lg-10 rounded-5 formulario"> <!-- Caixa do formulário com 60% de largura -->
+                    <h2 class="mb-3">Entre em contato</h2>
+                    <form>
+                        <div class="form-group mb-3">
+                            <label for="nome">Nome</label>
+                            <input type="text" id="nome" name="nome" class="form-control rounded-3 mt-1"
+                                placeholder="Digite seu nome completo">
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" class="form-control rounded-3 mt-1"
+                                placeholder="Digite seu email">
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="mensagem">Mensagem</label>
+                            <textarea id="mensagem" name="mensagem" class="form-control rounded-4 mt-2" rows="4"
+                                placeholder="Escreva sua mensagem"></textarea>
+                        </div>
+                        <div class="d-grid gap-2">
+                            <button type="submit" class="btn btn-primary btn-lg rounded-pill tamanho-botao">Enviar
+                                mensagem</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="text-center p-3 fst-italic">
+        <p>Acesse nossas redes:</p>
+        <i class="bi bi-whatsapp"></i>
+        <p>9999-9999</p>
+        <i class="bi bi-instagram"></i> <a href="https://www.instagram.com/pedri_cwb/" target="_blank">@pedri_cwb</a>
+        <i class="bi bi-tiktok"></i> <a href="https://www.tiktok.com/@pedrinho_cwb" target="_blank">pedrinho_cwb</a>
+        <p class="mt-3">Desenvolvido por Start by Alura. Projeto fictício sem fins comerciais.</p>
+    </footer>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
